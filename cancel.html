@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffe6e6;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #f44336;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .error {
+            color: #f44336;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .message {
+            font-size: 18px;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f44336;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="error">Payment Failed</h1>
+        <p class="message">Unfortunately, your payment could not be processed. Please try again later or contact support.</p>
+        <a href="/" class="button">Try Again</a>
+    </div>
+</body>
+</html>
